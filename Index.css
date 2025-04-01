@@ -2,6 +2,18 @@
     inset: 0;
     margin: 0;
     padding: 0;
+
+    --theme-primary: #2E294E;
+    --theme-secondary: #5A0001;
+    --theme-accent: #F13030;
+    --theme-suface: #22181C
+
+    --theme-primary-contant: #5A0001;
+    --theme-secoundary-content: #5A0001;
+    --theme-accent-content: #F13030;
+    --theme-surface-content: #000;
+
+
 }
 
 .flex-row {
@@ -20,4 +32,62 @@
 
 .align-center {
     align-items: center;
+}
+
+.pfp{
+    width: 200px;
+    border-radius: 100%;
+    border: solid;
+    border-width: 2em;
+    border-color: black;
+}
+
+
+.bg-primary{
+    background: var(--theme-primary);
+}
+
+.bg-secoundary{
+    background: var(--theme-secondary);
+}
+
+.bg-accent{
+    background: var(--theme-accent);
+}
+
+.bg-surface{
+    background: var(--theme-surface);
+}
+
+.bg-primary-content{
+    background: var(--theme-secondary);
+}
+
+.bg-secoundary-content{
+    background: var(--theme-secondary);
+}
+
+.bg-accent-content{
+    background: var(--theme-secondary);
+}
+
+.bg-surface-content{
+    background: var(--theme-secondary);
+}
+
+
+.bg-primary{
+    background: var(--theme-secondary);
+}
+
+.bg-secoundary{
+    background: var(--theme-secondary);
+}
+
+.bg-accent{
+    background: var(--theme-secondary);
+}
+
+.bg-surface{
+    background: var(--theme-surface)
 }
