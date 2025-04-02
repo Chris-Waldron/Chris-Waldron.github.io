@@ -5,10 +5,36 @@
         <title>Christopher Waldron</title>
     </head>
     <body>
-        <div class="flex-col justify-center align-center">
-            <a href="https://github.com/Chris-waldron">GitHub</a>
-            <img src="./goldfish.jpg" class="pfp">
+        <div class="flex-col justify-center align-center w-dvw h-dvh">
+            <div class="pfp">
+                <img src="./goldfish.jpg" >
+            </div>
+            <h1 class="text-primary">Christopher Waldron</h1>
+            <div class="nav">
+                <a  href="https://github.com/Chris-waldron">GitHub</a>
+            </div>
         </div>
+        <style>
+            h1{
+
+            }
+            .nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .nav a {
+                color: var(--theme-accent);
+                text-decoration: none;
+                padding: 2px;
+                border-radius: 1rem;
+                text-align: center;
+            }
+
+            .nav a:hover {
+                color: var(--theme-accent-content);
+                background: var(--theme-accent);
+            }
+        </style>
     </body>
-        <h1>Christopher Waldron</h1>
 </html>
